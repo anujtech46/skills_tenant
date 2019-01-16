@@ -632,3 +632,9 @@ address{margin:0;}
 @media (min-width:1024px) and (max-width:1023px) {
 
 }
+
+footer {
+    bottom: 0;
+   position: fixed;
+   width: 100%;
+}
