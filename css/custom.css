@@ -193,7 +193,8 @@ h1.logo img{
 	z-index:99;
 }
 #nav-bar{
-	box-shadow: 0 1px 0 #ccc;
+	/* box-shadow: 0 1px 0 #ccc; */
+	box-shadow: 0 0px 5px 0 #cccccc !important;
 }
 .menu{
 	margin-top: 20px;
@@ -299,13 +300,17 @@ h1.logo img{
 	height:8px;
 	width:8px;
 	border-radius:50%;
-	border:1px solid #ccc;
+	/* border:1px solid #ccc; */
+	background: #ffffff !important;
+	border: 1px solid #a7a4a4 !important;
 	margin:3px;
 	background-color:rgba(0,0,0,0.7);
 }
 .owl-dot.active{
-	border:1px solid #eee;
-	background-color:#eee;
+	/* border:1px solid #eee;
+	background-color:#eee; */
+	border: 1px solid #a7a4a4 !important;
+	background: #a7a4a4 !important;
 }
 .owl-nav div{
 	padding:5px;
@@ -329,15 +334,16 @@ h1.logo img{
 	position:relative;
 }
 .slide-details{
-	
     line-height: 1.2em;
 	padding:0;
 	color:#333;
 	position:absolute;
-	top:50%;
-	left:50%;
+	/* top:50%;
+	left:50%; */
+	top: 44% !important;
+	left: 55% !important;
+	padding: 0 !important;
 	transform:translate(-50%,-50%);
-	
 	font-size:25px;
 	text-shadow:1px 1px 1px #000;
 	width:100%;
@@ -457,15 +463,15 @@ address{margin:0;}
 		height:8px;
 		width:8px;
 		border-radius:50%;
-		border:1px solid #fff;
+		/* border:1px solid #fff; */
 		margin:3px;
-		background-color:transparent;
+		/* background-color:transparent; */
 		box-shadow: 0 0 2px #888;
 	}
-	.owl-dot.active{
+	/* .owl-dot.active{
 		border:1px solid #fff;
 		background-color:#fff;
-	}
+	} */
 	.milestone-details{
 		position:absolute;
 		bottom:0;
@@ -479,7 +485,7 @@ address{margin:0;}
 		font-size:22px;
 		text-shadow:1px 1px 1px #000;
 		width:90%;
-		padding:20px 30px;
+		/* padding:20px 30px; */
 	}
 	.slide-highlights{
 		font-size:34px;
@@ -611,3 +617,18 @@ address{margin:0;}
 	}
 }
 
+.fa-angle-left:before, .fa-angle-right:before {
+	color: #dfdfdf;
+}
+.owl-carousel {
+	box-shadow: 0 2px 2px 0 #efefef;
+	-webkit-box-shadow: 0 2px 2px 0 #efefef;
+	-moz-box-shadow: 0 2px 2px 0 #efefef;
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+
+}
+@media (min-width:1024px) and (max-width:1023px) {
+
+}
